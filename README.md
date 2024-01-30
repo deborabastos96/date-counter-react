@@ -17,3 +17,4 @@ The React Quiz is a simple quiz designed to test your knowledge of various React
 
 ## Technologies Used
 * React
+* CSS
