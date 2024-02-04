@@ -72,7 +72,7 @@ function QuizProvider({ children }) {
   );
 
   useEffect(function () {
-    fetch("https://the-react-quiz-react-7ce04acbac62.herokuapp.com/questions")
+    fetch("https://fantastic-imaginary-maraca.glitch.me/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
