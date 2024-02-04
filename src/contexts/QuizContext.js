@@ -72,7 +72,7 @@ function QuizProvider({ children }) {
   );
 
   useEffect(function () {
-    fetch("https://fantastic-imaginary-maraca.glitch.me/questions")
+    fetch("https://the-react-quiz-react.glitch.me/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
